@@ -16,7 +16,7 @@ const Blog = () => {
   return (
     <div>
       <h1 className="text-center font-bold text-4xl p-5 mb-5">Bluestock Blog</h1>
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 p-8">
+      <div className="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 p-8">
         {currentPage === 1 && (
           <>
             {/* Box 1 */}
