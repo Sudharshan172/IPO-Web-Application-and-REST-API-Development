@@ -30,7 +30,12 @@ SECRET_KEY = 'django-insecure-klq9&db4!1w244u$=qj5mm5(#^xm(eohk=w=-jn1mj#-1qc)q)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'ipo-web-application.onrender.com',
+    'ipo-web-app.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
@@ -139,7 +144,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Allow your React frontend
+    "https://ipo-web-app.onrender.com",    # Deployed React frontend
+    "http://localhost:5173",               # Local React frontend for development
 ]
 
 AUTH_USER_MODEL = 'authentication.Credentials'  # Change 'authentication' to your app name
