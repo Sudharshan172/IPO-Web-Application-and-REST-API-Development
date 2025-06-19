@@ -13,7 +13,7 @@ const Register = () => {
         setLoading(true);  // Show loading state
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/auth/signupnow/", {
+            const response = await fetch("https://ipo-web-application.onrender.com/auth/signupnow/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
