@@ -29,13 +29,13 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-2xl mx-auto p-6">
+    <div className="max-w-screen-xl mx-auto p-6">
       
       {/* First Section */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
 
         {/* Left Section - Text Content (Centers on Small Screens) */}
-        <div className="max-w-screen-2xl mx-auto flex flex-col items-center md:items-start text-center md:text-left">
+        <div className="max-w-screen-xl mx-auto flex flex-col items-center md:items-start text-center md:text-left">
           <p className="text-blue-500 font-bold flex items-center">
             <span className="bg-yellow-400 px-2 py-1 rounded mr-2">NEW</span> 
             App 2.0 <MdArrowForward className="ml-2" />
@@ -195,9 +195,9 @@ const Home = () => {
       </div>
 
       {/* Fourth Section - Below First */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col items-start md:flex-col justify-between">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-start md:flex-col justify-between">
         {/* Left Content Section */}
-        <div className="max-w-screen-2xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between">
+        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between">
           {/* Left Content Section */}
           <div className="max-w-lg">
             <h2 className="text-3xl font-bold">Why do traders love Bluestock?</h2>
@@ -219,7 +219,7 @@ const Home = () => {
         </div>
 
         {/* Learning Resources Section */}
-        <div className="max-w-screen-2xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
+        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
           {/* Left Section - Image Grid (50% width) */}
           <div className="w-full md:w-1/2 flex flex-wrap gap-6 justify-start">
             
@@ -261,7 +261,7 @@ const Home = () => {
       </div>
 
       {/* Fifth Section - Below First */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Left Section - Text + QR Code */}
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
           <div>
@@ -296,7 +296,7 @@ const Home = () => {
       </div>
       
       {/* sixth Section - Below First */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col items-center mb-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center mb-10">
 
         {/* Bluestock App Promo Banner */}
         <div className="w-full bg-blue-300 text-white text-center py-8 rounded-t-lg flex flex-col md:flex-row justify-center md:justify-evenly items-center gap-6">
@@ -320,7 +320,7 @@ const Home = () => {
       </div>
 
       {/* seventh Section - Below First */}
-      <div className="max-w-screen-2xl mx-auto mb-10">
+      <div className="max-w-screen-xl mx-auto mb-10">
       
         {/* Section Title + Arrows */}
         <div className="w-full flex justify-between items-center">
@@ -395,7 +395,7 @@ const Home = () => {
       </div>
 
       {/* Eight Section - Below First */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-10">
 
         {/* Left Section - Title & Broker Selection */}
         <div className="md:w-1/2 flex flex-col text-center md:text-left items-start">
