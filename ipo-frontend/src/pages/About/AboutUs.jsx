@@ -10,7 +10,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="max-w-screen-2xl mx-auto p-6">
       
       {/* About Description Section */}
       <div className="bg-white rounded-lg p-6 text-start">
@@ -44,7 +44,7 @@ const AboutUs = () => {
       </div>
 
       {/* Traders Talk Section */}
-      <div className="container mx-auto p-6 mt-10">
+      <div className="max-w-screen-2xl mx-auto p-6 mt-10">
         <p className="text-xl font-semibold text-blue-500 text-center">TRADERS TALK</p>
         <h3 className="text-3xl font-bold text-center">Recent News</h3>
 
@@ -95,7 +95,7 @@ const AboutUs = () => {
       </div>
 
       {/* FAQ Section - Now Moved to Bottom */}
-      <div className="container mx-auto p-6 mt-10">
+      <div className="max-w-screen-2xl mx-auto p-6 mt-10">
         <div className="text-black text-center p-6 rounded-lg">
           <h1 className="text-2xl font-bold">FREQUENTLY ASKED QUESTIONS</h1>
         </div>
