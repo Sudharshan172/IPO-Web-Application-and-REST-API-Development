@@ -49,7 +49,7 @@ const IPO = () => {
   }, []);
 
   const renderIPOCard = (ipo, isUpcoming = true) => (
-    <div className="rounded-lg p-6 w-full max-w-md mx-auto shadow-lg">
+    <div className="rounded-lg p-6 w-full max-w-screen-lg mx-auto shadow-lg">
       <div className="flex items-center gap-4 mb-6">
         <div
           className="h-10 w-10 sm:h-16 sm:w-16 bg-white rounded-full bg-cover bg-center"
@@ -141,7 +141,7 @@ const IPO = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-6">
+    <div className="max-w-screen-2xl mx-auto px-4 py-6">
       {/* Section Header */}
       <h2 className="text-2xl font-bold text-blue-600 mb-2">IPO</h2>
       <p className="text-gray-700">Following is the list of companies for IPO as of today.</p>
@@ -172,7 +172,7 @@ const IPO = () => {
         </div>
       </div>
 
-      <div className="container mx-auto p-6 bg-white-600 rounded-lg shadow-lg text-center mt-8">
+      <div className="max-w-screen-2xl mx-auto p-6 bg-white-600 rounded-lg shadow-lg text-center mt-8">
         {/* Bluestock Logo & Heading */}
         <div className="flex justify-center">
           <img
@@ -197,7 +197,7 @@ const IPO = () => {
         </button>
       </div>
 
-      <div className="container mx-auto p-3 rounded-lg mt-5">
+      <div className="max-w-screen-2xl mx-auto p-3 rounded-lg mt-5">
         {/* Section Heading */}
         <div className="flex justify-between items-center">
           <h3 className="text-xl font-bold text-blue-600 text-start">Ongoing</h3>
@@ -284,7 +284,7 @@ const IPO = () => {
         </div>
       </div>
 
-      <div className="container mx-auto rounded-lg mt-5">
+      <div className="max-w-screen-2xl mx-auto rounded-lg mt-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           {/* IPO News Section */}
@@ -321,7 +321,7 @@ const IPO = () => {
       </div>
 
       {/* FAQ Section - Now Moved to Bottom */}
-      <div className="container mx-auto mt-10">
+      <div className="max-w-screen-2xl mx-auto mt-10">
         <div className="text-black text-start rounded-lg p-2">
           <h1 className="text-2xl font-bold mb-2">Frequently Asked Questions?</h1>
           <p className="text-sm">Find answers to common questions that come in your mind related to IPO.</p>
