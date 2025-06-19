@@ -28,7 +28,7 @@ const Products = () => {
             </p>
         </div>
 
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row md:justify-between gap-6 p-5">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md:justify-between gap-6 p-5">
             {/* Box 1 - Bluestock IPO */}
             <div className="flex flex-col bg-white border-1 p-6 rounded-lg md:w-1/3">
                 <div className="bg-pink-300 h-10 w-10 mb-4"></div>
@@ -71,7 +71,7 @@ const Products = () => {
             </p>
         </div>
 
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-10 p-5">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-10 p-5">
             {/* Box 1 - Bluestock IPO */}
             <div className="flex flex-col bg-white border-1 p-6 rounded-lg">
                 <div className="bg-violet-200 h-10 w-10 mb-4"></div>
@@ -103,7 +103,7 @@ const Products = () => {
             </p>
         </div>
 
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 p-5">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-6 p-5">
             {/* Box 1 - Bluestock IPO */}
             <div className="flex flex-col bg-white border-1 p-6 rounded-lg">
                 <div className="bg-violet-200 h-10 w-10 mb-4"></div>
