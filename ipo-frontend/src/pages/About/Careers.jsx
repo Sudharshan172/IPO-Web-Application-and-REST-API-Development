@@ -1,7 +1,7 @@
 const Careers = () => {
   return (
     <div>
-      <div className="container mx-auto p-6">
+      <div className="max-w-screen-2xl mx-auto p-6">
         {/* Outer Box Holding Both Sections */}
         <div className="bg-white rounded-lg p-6 flex flex-col lg:flex-row items-center">
 
