@@ -6,7 +6,7 @@ import { IoIosSend } from "react-icons/io";
 const Brokers = () => {
   return (
     <div className="p-5">
-      <div className="max-w-screen-2xl mx-auto hidden md:hidden lg:block">
+      <div className="max-w-screen-xl mx-auto hidden md:hidden lg:block">
         <h1 className="text-3xl font-bold text-start mb-3">Made to Trade</h1>
         <div className="bg-blue-100 p-6 rounded-lg flex justify-between items-center w-[90%] mb-5">
           <div className="flex flex-row justify-between w-[70%]">
