@@ -91,7 +91,7 @@ const Home = () => {
       </div>
 
       {/* Third Section - Below First */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col items-center text-center mt-5">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center text-center mt-5">
         {/* Section Title - Centered */}
         <div className="max-w-xl">
           <p className="text-lg font-semibold text-blue-600">Power-packed with everything you need.</p>
@@ -197,7 +197,7 @@ const Home = () => {
       {/* Fourth Section - Below First */}
       <div className="max-w-screen-xl mx-auto flex flex-col items-start md:flex-col justify-between">
         {/* Left Content Section */}
-        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between">
+        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center md:justify-between">
           {/* Left Content Section */}
           <div className="max-w-lg">
             <h2 className="text-3xl font-bold">Why do traders love Bluestock?</h2>
