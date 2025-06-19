@@ -23,7 +23,7 @@ const Product3 = () => {
       {/* Overview Section */}
       <h2 className="text-2xl text-center font-semibold text-gray-800 mb-4">Overview of Large Cap Mutual Funds</h2>
 
-      <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-5 mb-5">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-5 mb-5">
         {/* Fund Categories Section (1/4 width) */}
         <div className="col-span-1 bg-gray-300 p-6 rounded-lg h-full">
           <p className="text-lg font-semibold text-gray-800">Fund Categories</p>
