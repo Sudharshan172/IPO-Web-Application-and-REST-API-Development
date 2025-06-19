@@ -4,7 +4,7 @@
 This project is developed for **Bluestock Fintech** as part of a production-level software development Intern. The IPO Web Application provides IPO-related information for the Bluestock website/app and clients’ platforms. This project aims to give interns hands-on experience with industry-standard web development practices.
 
 ### 🔗 Live Demo  
-👉 [IPO Web Application](https://ipo-webapp.onrender.com)
+👉 [IPO Web Application](https://ipo-web-app.onrender.com)
 
 ## **Objective**
 The web application and its REST API offer essential IPO details to the public, including:
