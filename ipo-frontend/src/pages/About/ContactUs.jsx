@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 const ContactUs = () => {
   return (
     <div>
-      <div className="max-w-screen-2xl mx-auto p-6">
+      <div className="max-w-screen-xl mx-auto p-6">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-start text-gray-500 mb-6">How Can We Help You?</h2>
 
