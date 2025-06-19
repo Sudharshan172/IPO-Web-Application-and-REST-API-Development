@@ -22,7 +22,7 @@ const Community = () => {
     };
 
   return (
-    <div className="max-w-screen-2xl mx-auto p-6">
+    <div className="max-w-screen-xl mx-auto p-6">
       <h2 className="text-2xl font-bold text-blue-600">Upcoming IPO</h2>
       <p className="text-gray-700">Companies that have filed for an IPO with SEBI. Few details might be disclosed by the companies later.</p>
 
@@ -80,7 +80,7 @@ const Community = () => {
       </div>
 
       {/* FAQ Section - Now Moved to Bottom */}
-        <div className="max-w-screen-2xl mx-auto mt-10">
+        <div className="max-w-screen-xl mx-auto mt-10">
             <div className="text-black text-start rounded-lg p-2">
                 <h1 className="text-2xl font-bold mb-2">Frequently Asked Questions?</h1>
                 <p className="text-sm">Find answers to common questions that come in your mind related to IPO.</p>
