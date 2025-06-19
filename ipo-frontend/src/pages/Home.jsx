@@ -32,7 +32,7 @@ const Home = () => {
     <div className="container mx-auto p-6">
       
       {/* First Section */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
+      <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
 
         {/* Left Section - Text Content (Centers on Small Screens) */}
         <div className="max-w-lg w-full flex flex-col items-center md:items-start text-center md:text-left">
@@ -91,7 +91,7 @@ const Home = () => {
       </div>
 
       {/* Third Section - Below First */}
-      <div className="container mx-auto flex flex-col items-center text-center mt-5">
+      <div className="max-w-screen-2xl mx-auto flex flex-col items-center text-center mt-5">
         {/* Section Title - Centered */}
         <div className="max-w-xl">
           <p className="text-lg font-semibold text-blue-600">Power-packed with everything you need.</p>
