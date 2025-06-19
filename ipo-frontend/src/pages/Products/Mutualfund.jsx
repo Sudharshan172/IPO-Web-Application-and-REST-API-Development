@@ -5,7 +5,7 @@ const Product3 = () => {
     <div>
       {/* Header Section */}
       <div className="bg-gray-200 mb-10">
-        <div className="mt-20 p-8 container mx-auto flex flex-col sm:flex-row justify-between items-center mb-6">
+        <div className="mt-20 p-8 max-w-screen-2xl mx-auto flex flex-col sm:flex-row justify-between items-center mb-6">
           <div className="max-w-lg">
             <h1 className="text-3xl font-bold text-gray-800">Large Cap Mutual Funds</h1>
             <p className="text-gray-600 mt-4">
@@ -23,7 +23,7 @@ const Product3 = () => {
       {/* Overview Section */}
       <h2 className="text-2xl text-center font-semibold text-gray-800 mb-4">Overview of Large Cap Mutual Funds</h2>
 
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-5 mb-5">
+      <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-5 mb-5">
         {/* Fund Categories Section (1/4 width) */}
         <div className="col-span-1 bg-gray-300 p-6 rounded-lg h-full">
           <p className="text-lg font-semibold text-gray-800">Fund Categories</p>
