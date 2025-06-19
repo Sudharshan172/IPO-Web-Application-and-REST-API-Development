@@ -29,7 +29,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="max-w-screen-2xl w-full mx-auto p-6">
       
       {/* First Section */}
       <div className="max-w-screen-2xl w-full mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
