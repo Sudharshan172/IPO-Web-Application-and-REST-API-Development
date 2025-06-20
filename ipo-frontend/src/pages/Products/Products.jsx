@@ -63,7 +63,7 @@ const Products = () => {
             </div>
         </div>
 
-        <div className="bg-violet-200 p-8 rounded-lg container mx-auto mt-5 mb-5">
+        <div className="bg-violet-200 p-8 rounded-lg max-w-screen-xl mx-auto mt-5 mb-5">
             <h2 className="text-xl font-bold text-gray-800">Grow Your Network and Learn the Stock Market</h2>
             <p className="mt-3 text-md text-gray-600">
                 Our community-based approach encourages you to learn from experts<br/>
