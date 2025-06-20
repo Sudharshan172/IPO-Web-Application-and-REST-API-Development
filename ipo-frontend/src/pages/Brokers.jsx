@@ -168,7 +168,7 @@ const Brokers = () => {
 
           {/* Image Section */}
           <div className="mt-6">
-            <img src="https://community.angelone.in/uploads/default/original/2X/d/d6fc9d50d67b5903af9082ba34e9a73626e3a6ce.png" alt="Banner" className="w-40 h-40 rounded-md" />
+            <img src="https://play-lh.googleusercontent.com/Ic8lUYwMCgTePpo-Gbg0VwE_0srDj1xD386BvQHO_mOwsfMjX8lFBLl0Def28pO_Mvk" alt="Banner" className="w-40 h-40 rounded-md" />
           </div>
         </div>
 
