@@ -515,7 +515,7 @@ const Blog = () => {
       </div>
 
       {/* Pagination Section */}
-      <div className="flex justify-center mt-6 space-x-2 items-center">
+      <div className="flex justify-center mt-6 space-x-2 items-center mb-3">
         <button
           onClick={() => handlePageChange(currentPage - 1)}
           className="p-2 rounded-md bg-gray-300 hover:bg-gray-400"
