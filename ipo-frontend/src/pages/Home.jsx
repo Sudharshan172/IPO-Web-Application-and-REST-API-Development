@@ -196,8 +196,7 @@ const Home = () => {
 
       {/* Fourth Section - Below First */}
       <div className="max-w-screen-xl mx-auto flex flex-col items-start md:flex-col justify-between">
-        {/* Left Content Section */}
-        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center md:justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-12 max-w-screen-xl mx-auto">
           {/* Left Content Section */}
           <div className="max-w-lg">
             <h2 className="text-3xl font-bold">Why do traders love Bluestock?</h2>
@@ -210,19 +209,17 @@ const Home = () => {
           </div>
 
           {/* Right Side - Circular Sharp Trader Box */}
-          <div className="flex justify-end mt-6 md:mt-0">
+          <div className="flex justify-center md:justify-end">
             <div className="bg-blue-500 text-white text-center rounded-full w-48 h-48 flex items-center justify-center shadow-lg">
               <p className="text-lg font-bold">Sharp Trader</p>
             </div>
           </div>
-
         </div>
 
         {/* Learning Resources Section */}
-        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
+        <div className="container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           {/* Left Section - Image Grid (50% width) */}
-          <div className="w-full md:w-1/2 flex flex-wrap gap-6 justify-start">
-            
+          <div className="w-full flex flex-wrap gap-6 justify-start">
             {/* Analytics Image + Name */}
             <div>
               <div className="flex flex-col items-center bg-orange-100 p-4 rounded-lg shadow-md">
@@ -230,6 +227,7 @@ const Home = () => {
               </div>
               <p className="mt-2 font-semibold text-center">Analytics</p>
             </div>
+        
             {/* Blogs Image + Name */}
             <div>
               <div className="flex flex-col items-center bg-blue-100 p-4 rounded-lg shadow-md">
@@ -237,6 +235,7 @@ const Home = () => {
               </div>
               <p className="mt-2 font-semibold text-center">Blogs</p>
             </div>
+        
             {/* Videos Image + Name */}
             <div>
               <div className="flex flex-col items-center bg-red-100 p-4 rounded-lg shadow-md">
@@ -245,9 +244,9 @@ const Home = () => {
               <p className="mt-2 font-semibold text-center">Videos</p>
             </div>
           </div>
-
+        
           {/* Right Section - Text Content (50% width) */}
-          <div className="w-full md:w-1/2 text-center md:text-left">
+          <div className="w-full text-center md:text-left">
             <p className="text-lg font-semibold text-blue-600">Resources</p>
             <h3 className="text-2xl font-bold mt-2">All things finance, right here</h3>
             <p className="mt-4 text-gray-600 leading-relaxed">
@@ -256,7 +255,6 @@ const Home = () => {
             </p>
           </div>
         </div>
-
 
       </div>
 
