@@ -32,7 +32,7 @@ const Home = () => {
     <div className="max-w-screen-xl mx-auto p-6">
       
       {/* First Section */}
-      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-start justify-center md:justify-between gap-10">
 
         {/* Left Section - Text Content (Centers on Small Screens) */}
         <div className="max-w-screen-xl mx-auto flex flex-col items-center md:items-start text-center md:text-left">
